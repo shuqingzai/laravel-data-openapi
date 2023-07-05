@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "overbeck/laravel-data-openapi",
+    "description": "generate laravel data object OpenApi docs",
     "keywords": [
-        ":vendor_name",
+        "overbeck",
         "laravel",
-        ":package_slug"
+        "laravel-data-openapi"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/shuqingzai/laravel-data-openapi",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "ShuQingZai",
+            "email": "overbeck.jack@qq.com",
             "role": "Developer"
         }
     ],
@@ -21,6 +21,7 @@
         "illuminate/contracts": "^10.0"
     },
     "require-dev": {
+        "roave/security-advisories": "dev-latest",
         "laravel/pint": "^1.0",
         "nunomaduro/collision": "^7.9",
         "nunomaduro/larastan": "^2.0.1",
@@ -35,13 +36,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "Overbeck\\LaravelDataOpenAPI\\": "src/",
+            "Overbeck\\LaravelDataOpenAPI\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/"
+            "Overbeck\\LaravelDataOpenAPI\\Tests\\": "tests/"
         }
     },
     "scripts": {
@@ -61,10 +62,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Overbeck\\LaravelDataOpenAPI\\LaravelDataOpenAPIServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "LaravelDataOpenAPI": "Overbeck\\LaravelDataOpenAPI\\Facades\\LaravelDataOpenAPI"
             }
         }
     },

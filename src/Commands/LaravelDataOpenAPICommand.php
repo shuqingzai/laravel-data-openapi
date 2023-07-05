@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Overbeck\LaravelDataOpenAPI\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class LaravelDataOpenAPICommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'laravel-data-openapi';
 
     public $description = 'My command';
 
