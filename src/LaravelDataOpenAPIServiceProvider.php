@@ -2,9 +2,9 @@
 
 namespace Overbeck\LaravelDataOpenAPI;
 
+use Overbeck\LaravelDataOpenAPI\Commands\LaravelDataOpenAPICommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Overbeck\LaravelDataOpenAPI\Commands\LaravelDataOpenAPICommand;
 
 class LaravelDataOpenAPIServiceProvider extends PackageServiceProvider
 {

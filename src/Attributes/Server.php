@@ -6,12 +6,11 @@ namespace Overbeck\LaravelDataOpenAPI\Attributes;
 
 use Attribute;
 
-
 /**
  * Class Server
  *
  * @link    https://swagger.io/specification/#server-object
- * @package Overbeck\LaravelDataOpenAPI\Attributes
+ *
  * @author  ShuQingZai<overbeck.jack@qq.com> 2023/7/5 19:42
  */
 #[Attribute(Attribute::TARGET_CLASS | Attribute::IS_REPEATABLE)]

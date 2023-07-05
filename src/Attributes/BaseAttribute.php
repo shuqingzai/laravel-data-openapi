@@ -6,5 +6,4 @@ namespace Overbeck\LaravelDataOpenAPI\Attributes;
 
 abstract class BaseAttribute
 {
-
 }

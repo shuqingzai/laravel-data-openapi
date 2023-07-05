@@ -6,12 +6,11 @@ namespace Overbeck\LaravelDataOpenAPI\Attributes;
 
 use Attribute;
 
-
 /**
  * Class Info
  *
  * @link    https://swagger.io/specification/#info-object
- * @package Overbeck\LaravelDataOpenAPI\Attributes
+ *
  * @author  ShuQingZai<overbeck.jack@qq.com> 2023/7/5 18:35
  */
 #[Attribute(Attribute::TARGET_CLASS)]

@@ -1,4 +1,5 @@
 <?php
+
 declare(strict_types=1);
 
 // config for Overbeck/LaravelDataOpenAPI
@@ -30,19 +31,19 @@ return [
          */
 
         'info' => [
-            'title'          => 'Laravel Data OpenAPI',
-            'description'    => 'Laravel Data OpenAPI',
-            'contact'        => [
-                'name'  => 'Overbeck.jack',
+            'title' => 'Laravel Data OpenAPI',
+            'description' => 'Laravel Data OpenAPI',
+            'contact' => [
+                'name' => 'Overbeck.jack',
                 'email' => 'overbeck.jack@qq.com',
-                'url'   => 'https://github.com/shuqingzai/laravel-data-openapi'
+                'url' => 'https://github.com/shuqingzai/laravel-data-openapi',
             ],
-            'license'        => [
+            'license' => [
                 'name' => 'Apache 2.0',
-                'url'  => 'https://www.apache.org/licenses/LICENSE-2.0.html'
+                'url' => 'https://www.apache.org/licenses/LICENSE-2.0.html',
             ],
             'termsOfService' => '',
-            'version'        => '1.0.0',
+            'version' => '1.0.0',
         ],
 
         /*
@@ -51,9 +52,9 @@ return [
 
         'servers' => [
             [
-                'url'         => env('APP_URL'),
+                'url' => env('APP_URL'),
                 'description' => 'Local server',
-                'variables'   => [],
+                'variables' => [],
             ],
         ],
 
@@ -106,9 +107,8 @@ return [
 
         'externalDocs' => [
             'description' => 'Find more info here',
-            'url'         => '',
+            'url' => '',
         ],
-
 
         /*
          * OpenAPI spec extensions.

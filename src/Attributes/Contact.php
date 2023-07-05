@@ -6,12 +6,11 @@ namespace Overbeck\LaravelDataOpenAPI\Attributes;
 
 use Attribute;
 
-
 /**
  * Class Contact
  *
  * @link    https://swagger.io/specification/#contact-object
- * @package Overbeck\LaravelDataOpenAPI\Attributes
+ *
  * @author  ShuQingZai<overbeck.jack@qq.com> 2023/7/5 19:38
  */
 #[Attribute(Attribute::TARGET_CLASS)]
