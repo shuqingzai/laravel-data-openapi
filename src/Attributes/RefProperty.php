@@ -6,13 +6,12 @@ namespace Overbeck\LaravelDataOpenAPI\Attributes;
 
 use Attribute;
 
-
 /**
  * Class RefProperty
  *
  * @see     https://spec.openapis.org/oas/v3.0.3#reference-object
  * @see     https://swagger.io/specification/#schema-object
- * @package Overbeck\LaravelDataOpenAPI\Attributes
+ *
  * @author  ShuQingZai<overbeck.jack@qq.com> 2023/7/6 16:25
  */
 #[Attribute]
@@ -26,10 +25,6 @@ class RefProperty extends BaseAttribute
     ) {
     }
 
-    /**
-     * @param  string  $routePrefix
-     * @return static
-     */
     public function setRoutePrefix(string $routePrefix): static
     {
         $this->routePrefix = $routePrefix;

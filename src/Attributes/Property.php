@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Overbeck\LaravelDataOpenAPI\Attributes;
 
-
 use Attribute;
 
 /**
@@ -12,7 +11,7 @@ use Attribute;
  *
  * @see     https://spec.openapis.org/oas/v3.0.3#schema-object
  * @see     https://swagger.io/specification/#schema-object
- * @package Overbeck\LaravelDataOpenAPI\Attributes
+ *
  * @author  ShuQingZai<overbeck.jack@qq.com> 2023/7/6 16:46
  */
 #[Attribute(Attribute::TARGET_PROPERTY)]
